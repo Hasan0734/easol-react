@@ -4,8 +4,8 @@ import Class from './BuySell.module.css'
 const BuySell = () => {
     return (
         <div className='row service__margin'>
-             <div className='col-6'>
-                <div className='me-5 mt-3'>
+             <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-md-0'>
+                <div className='me-5 me-md-0 mt-3'>
                     <div className='d-flex gap-4 align-items-center'>
                         <div className='d-flex gap-2'>
                             <p className="common__dot"></p>
@@ -21,7 +21,7 @@ const BuySell = () => {
                     </button>
                 </div>
             </div>
-            <div className='col-6'>
+            <div className='col-sm-12 col-md-12 col-lg-6'>
                 <div className=''>
                     <img className='w-100' src={image} alt="" />
                 </div>

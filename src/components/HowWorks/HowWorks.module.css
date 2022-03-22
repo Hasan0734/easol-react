@@ -73,6 +73,8 @@
     width: 280px;
     border-bottom: 2px dashed #1B224A;
     margin-left: 12px;
+    top: 0;
+    right: -143px;
 }
 
 .line__system i {

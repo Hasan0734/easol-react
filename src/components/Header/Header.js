@@ -10,7 +10,7 @@ const Header = () => {
         <header className={Class.header__section}>
             <div className='container'>
                 <div className='row '>
-                    <div className='col-6 p-4 py-3'>
+                    <div className='col-sm-12 col-md-12 col-lg-6 p-4 py-3'>
                         <div>
                             <svg width="155" height="35" viewBox="0 0 155 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_29_153)">
@@ -35,7 +35,7 @@ const Header = () => {
                             <p className={Class.scroll__top}><i class="fa-solid fa-arrow-down-long"></i> <span>Scroll tp learn more</span></p>
                         </div>
                     </div>
-                    <div className='col-6 '>
+                    <div className='col-sm-12 col-md-12 col-lg-6 '>
                         <HeaderCard/>
                     </div>
                 </div>
