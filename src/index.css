@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'hk_groteskbold';
-  src: url('/src//assets//webfonts/hkgrotesk-bold-webfont.woff') format('woff'),    
-       url('/src//assets//webfonts/hkgrotesk-bold-webfont.woff2') format('woff2');
+  src: url('/src//assets//webfonts/hkgrotesk-bold-webfont.woff') format('woff'),
+    url('/src//assets//webfonts/hkgrotesk-bold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-   font-family: 'hk_groteskbold';
+  font-family: 'hk_groteskbold';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,15 +35,18 @@ code {
   border: none;
   outline: none;
 }
-.common__dot{
+
+.common__dot {
   background: #0A9B58;
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
-.service__margin{
+
+.service__margin {
   margin-bottom: 151px;
 }
+
 .service__name {
   font-family: 'Poppins';
   font-style: normal;
@@ -53,7 +56,7 @@ code {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  
+
 
 }
 
@@ -79,17 +82,18 @@ code {
   color: #494B59;
 }
 
-.header__slick__dots{
+.header__slick__dots {
   position: absolute;
-    bottom: 17px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+  bottom: 17px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
 
 }
+
 .header__slick__dots li {
   position: relative;
   display: inline-block;
@@ -130,7 +134,48 @@ code {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .header__slick__dots li.slick-active button:before {
   opacity: .75;
   color: #0A9B58;
+}
+
+.client__slider__dot {
+  position: absolute;
+  bottom: 17px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  top: -60px;
+  left: -31px;
+}
+.client__slider__dot li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 0px;
+  padding: 0;
+  cursor: pointer;
+  margin: 4px;
+}
+.client__slider__dot li button {
+  font-size: 16px;
+  line-height: 0;
+  display: block;
+  width: 22px;
+  height: 22px;
+  padding: 5px;
+  cursor: pointer;
+  /* color: transparent; */
+  border: 0;
+  /* outline: none; */
+  background: #27AAE2;
+  border-radius: 50%;
+  color: white;
+  padding: 7px;
+
 }
