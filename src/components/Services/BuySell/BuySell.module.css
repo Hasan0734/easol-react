@@ -1,0 +1,13 @@
+.name__color{
+    color: #F88913;
+}
+.service__btn {
+    background: #F88913;
+
+}
+.buysell__dot{
+    background: #F88913;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+.video__section{
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+
+.dopechat__title {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.video__area {
+    background: #e5f4fb;
+    /* opacity: 0.12; */
+    padding: 40px;
+    border-radius: 2px;
+    position: relative;
+}
+
+
+.play__btn {
+    background: #27AAE2;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #FFFFFF;
+    font-size: 26px;
+}

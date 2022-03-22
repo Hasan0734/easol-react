@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+}
+.common__dot{
+  background: #0A9B58;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.service__margin{
+  margin-bottom: 151px;
+}
+.service__name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  
+
+}
+
+.service__title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #1B224A;
+}
+
+.service__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 31px;
+  padding-right: 10px;
+  color: #494B59;
+}

@@ -1,0 +1,13 @@
+.name__color{
+    color: #FE0652;
+}
+.service__btn {
+    background: #FE0652;
+
+}
+.booking__dot{
+    background: #FE0652;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

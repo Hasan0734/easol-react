@@ -1,0 +1,44 @@
+.works__section {
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.title {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.icon__area1 {
+    background: #FE0652;
+    border-radius: 20px;
+    font-size: 60px;
+    padding: 22px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.icon__area2 {
+    background: #0A9B58;
+    border-radius: 20px;
+    font-size: 60px;
+    padding: 22px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.icon__area3 {
+    background: #F88913;
+    border-radius: 20px;
+    font-size: 60px;
+    padding: 22px;
+    color: white;
+    margin-bottom: 10px;
+
+}
