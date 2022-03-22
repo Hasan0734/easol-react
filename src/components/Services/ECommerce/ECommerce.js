@@ -3,8 +3,8 @@ import image from '../../../assets/group/Group2.png'
 import Class from './ECommerce.module.css'
 const Ecommerce = () => {
     return (
-        <div className='row service__margin'>
-             <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-sm-0'>
+        <div className='row service__margin  flex-column-reverse flex-lg-row'>
+             <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-lg-0'>
                 <div className='me-5 me-sm-0 mt-3'>
                     <div className='d-flex gap-4 align-items-center'>
                         <div className='d-flex gap-2'>
@@ -21,7 +21,7 @@ const Ecommerce = () => {
                     </button>
                 </div>
             </div>
-            <div className='col-sm-12 col-md-12 col-lg-6'>
+            <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-lg-0'>
                 <div className=''>
                     <img className='w-100' src={image} alt="" />
                 </div>

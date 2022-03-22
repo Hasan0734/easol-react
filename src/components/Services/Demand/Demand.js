@@ -4,13 +4,13 @@ import Class from './Demand.module.css'
 const Demand = () => {
     return (
         <div className='row service__margin'>
-            <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-sm-0'>
+            <div className='col-sm-12 col-md-12 col-lg-6 mb-5 mb-lg-0'>
                 <div className=''>
                     <img className='w-100' src={image} alt="" />
                 </div>
             </div>
             <div className='col-sm-12 col-md-12 col-lg-6'>
-                <div className='ms-5 ms-sm-0 mt-3'>
+                <div className='ms-lg-5 mt-3'>
                     <div className='d-flex gap-4 align-items-center'>
                         <div className='d-flex gap-2'>
                             <p className="common__dot"></p>
