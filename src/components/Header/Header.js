@@ -1,6 +1,10 @@
 import React from 'react';
 import Class from './Header.module.css'
 import HeaderCard from './HeaderCard';
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
 const Header = () => {
     return (
         <header className={Class.header__section}>

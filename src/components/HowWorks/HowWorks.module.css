@@ -3,6 +3,18 @@
     padding-top: 50px;
 }
 
+.section__title {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 120px;
+}
+
 .title {
     font-family: 'HK Grotesk';
     font-style: normal;
@@ -24,6 +36,7 @@
     margin-bottom: 10px;
 
 }
+
 .icon__area2 {
     background: #0A9B58;
     border-radius: 20px;
@@ -33,6 +46,7 @@
     margin-bottom: 10px;
 
 }
+
 .icon__area3 {
     background: #F88913;
     border-radius: 20px;
@@ -40,5 +54,41 @@
     padding: 22px;
     color: white;
     margin-bottom: 10px;
+
+}
+
+/* .line__dash::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 4px dashed orange;
+    top: 0;
+    transform: rotate(270deg);
+} */
+
+.line__system {
+    position: absolute;
+    height: 53px;
+    width: 280px;
+    border-bottom: 2px dashed #1B224A;
+    margin-left: 12px;
+}
+
+.line__system i {
+    position: absolute;
+    font-size: 23px;
+    right: -12px;
+    bottom: -13px;
+    color: #8d8e9b;
+}
+
+.line__system::after {
+    /* position: absolute; */
+    /* height: 53px;
+    width: 280px;
+    border-bottom: 3px dashed #1B224A;
+    margin-left: 12px; */
+    content: "";
 
 }
