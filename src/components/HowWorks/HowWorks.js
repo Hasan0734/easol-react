@@ -9,12 +9,12 @@ const HowWorks = () => {
                 </div>
                 <div className='row'>
                     <div className='col-12 col-lg-4  mb-5 mb-md-0'>
-                        <div className="position-relative">
+                        <div className="position-relative py-5 py-md-0">
                             <div className='text-center'>
                                 <span className={Class.icon__area1}>
                                     <i class=" fa-solid fa-cloud-arrow-down"></i>
                                 </span>
-                                <span className={`${Class.line__system} d-none d-lg-block`}>
+                                <span className={`${Class.line__system}`}>
                                     <i class="fa-solid fa-angle-right"></i>
                                 </span>
                             </div>
@@ -22,12 +22,12 @@ const HowWorks = () => {
                         </div>
                     </div>
                     <div className='col-12 col-lg-4 mb-5 mb-md-0'>
-                        <div className='position-relative'>
+                        <div className='position-relative py-5 py-md-0'>
                             <div className='text-center'>
                                 <span className={Class.icon__area2}>
                                     <i class="fa-solid fa-cloud-arrow-down"></i>
                                 </span>
-                                <span className={`${Class.line__system} d-none d-lg-block`}>
+                                <span className={`${Class.line__system}`}>
                                     <i class="fa-solid fa-angle-right"></i>
                                 </span>
                             </div>
@@ -35,7 +35,7 @@ const HowWorks = () => {
                         </div>
                     </div>
                     <div className='col-12 col-lg-4 mb-5 mb-md-0'>
-                        <div>
+                        <div className='py-5 py-md-0'>
                             <div className='text-center'>
                                 <span className={Class.icon__area3}>
                                     <i class="fa-solid fa-bullhorn"></i>

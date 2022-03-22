@@ -11,37 +11,36 @@ const Clients = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         dotsClass: "client__slider__dot",
         arrows: false,
-        infinite: true,
         responsive: [
+            // {
+            //     breakpoint: 1024,
+            //     settings: {
+            //         slidesToShow: 3,
+            //         slidesToScroll: 3,
+            //         infinite: true,
+            //         dots: true
+            //     }
+            // },
             {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-               
-               
-              }
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
             },
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-               
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          ]
+        ]
     };
     return (
         <section className={Class.client__section}>
@@ -52,21 +51,21 @@ const Clients = () => {
                         <p className={Class.client__text}>Read what clients says about us and about our online banking services that may inspire you</p>
                     </div>
                 </div>
-                <div className=''>
+                <div className='client__slider'>
                     <Slider {...settings}>
-                       
+
                         <div className='px-lg-4'>
                             <Card />
                         </div>
-                     
+
                         <div className='px-lg-4'>
                             <Card />
                         </div>
-                     
+
                         <div className='px-lg-4'>
                             <Card />
                         </div>
-                     
+
 
                     </Slider>
                 </div>

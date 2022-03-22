@@ -11,8 +11,7 @@ const Dopechat = () => {
                 <div className={Class.video__area}>
                     <div className=''>
                         <img className={`${Class.video__image} img-fluid w-100`} src={image} alt="" />
-
-
+                       
                     </div>
                     <button className={Class.play__btn}>
                         <i class="fa-solid fa-play"></i>

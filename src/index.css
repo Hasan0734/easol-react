@@ -152,6 +152,7 @@ code {
   top: -60px;
   left: -31px;
 }
+
 .client__slider__dot li {
   position: relative;
   display: inline-block;
@@ -162,6 +163,7 @@ code {
   cursor: pointer;
   margin: 4px;
 }
+
 .client__slider__dot li button {
   font-size: 16px;
   line-height: 0;
@@ -178,4 +180,17 @@ code {
   color: white;
   padding: 7px;
 
+}
+
+@media screen and (max-width: 990px) {
+  .client__slider{
+    margin-top: 40px;
+  }
+  .client__slider__dot {
+    top: -17px;
+    left: -2px;
+  }
+}
+.pb-12{
+  padding-bottom: 12rem !important;
 }

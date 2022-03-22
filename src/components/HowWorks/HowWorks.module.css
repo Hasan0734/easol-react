@@ -1,7 +1,8 @@
 .works__section {
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     padding-top: 50px;
 }
+
 
 .section__title {
     font-family: 'hk_groteskbold';
@@ -93,4 +94,45 @@
     margin-left: 12px; */
     content: "";
 
+}
+
+@media screen and (max-width: 530px) {
+    .line__system {
+        left: 165px;
+    }
+}
+@media screen and (max-width: 762px) {
+    .line__system {
+        position: absolute;
+        height: 53px;
+        width: 197px;
+        border-bottom: 2px dashed #1B224A;
+        margin-left: 12px;
+        transform: rotate(90deg);
+        left: 174px;
+        top: 264px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .line__system {
+        width: 169px;
+        right: -91px;
+    }
+    .works__section {
+        margin-bottom: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .line__system {
+        height: 53px;
+        width: 280px;
+        right: -143px;
+    }
+    .works__section {
+        margin-bottom: 200px;
+    }
+    
 }

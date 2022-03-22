@@ -23,7 +23,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {
-                        footerData.map((item, i) => <div key={i} className={`${Class.TopFooter} col-sm-12 col-md-6 col-lg-2`}>
+                        footerData.map((item, i) => <div key={i} className={`${Class.TopFooter} col-sm-6 col-md-6 col-lg-2`}>
                             <h1 className='text-uppercase'>{item.title}</h1>
                             <ul>
                             {item.items.map((linkItem, i) => <li key={i}><a href="#">{linkItem.titleName}</a></li>)     }                          
