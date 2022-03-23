@@ -212,6 +212,22 @@ code {
   opacity: 0.5;
 }
 
+@media screen and (max-width: 768px) {
+  .header__img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-size: cover;
+  }
+
+  .header__img::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 120px;
+    opacity: 0.5;
+  }
+}
 @media screen and (min-width: 992px) {
   .header__img {
     width: 140px;
