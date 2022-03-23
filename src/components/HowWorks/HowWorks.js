@@ -25,7 +25,7 @@ const HowWorks = () => {
                         <div className='position-relative pb-12 py-lg-0'>
                             <div className='text-center'>
                                 <span className={Class.icon__area2}>
-                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                <i class="fa-solid fa-box-open"></i>
                                 </span>
                                 <span className={`${Class.line__system}`}>
                                     <i class="fa-solid fa-angle-right"></i>
