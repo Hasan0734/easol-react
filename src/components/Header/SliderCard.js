@@ -1,5 +1,5 @@
 import React from 'react';
-import Class from './Header.module.css'
+import Class from './Header.module.css';
 import HeaderCard from './HeaderCard';
 const SliderCard = () => {
     return (
@@ -14,7 +14,7 @@ const SliderCard = () => {
                                 To Sell Experiences
                             </h1>
                             <p className={Class.header__text}>Easol is the all-in-one platform for managing your entire experience business, on your terms. Sell directly on your own website with smart booking, payment, and marketing tools that all work together, brilliantly.</p>
-                            <p className={Class.scroll__top}><i class="fa-solid fa-arrow-down-long"></i> <span>Scroll tp learn more</span></p>
+                            <p className={Class.scroll__top}><i className="fa-solid fa-arrow-down-long"></i> <span>Scroll tp learn more</span></p>
                         </div>
                     </div>
                     <div className='col-sm-12 col-md-12 col-lg-6 '>

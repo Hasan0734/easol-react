@@ -1,5 +1,5 @@
 import React from 'react';
-import Class from './HowWorks.module.css'
+import Class from './HowWorks.module.css';
 const HowWorks = () => {
     return (
         <section className={Class.works__section}>
@@ -12,10 +12,10 @@ const HowWorks = () => {
                         <div className="position-relative pb-12 py-lg-0">
                             <div className='text-center'>
                                 <span className={Class.icon__area1}>
-                                    <i class=" fa-solid fa-cloud-arrow-down"></i>
+                                    <i className=" fa-solid fa-cloud-arrow-down"></i>
                                 </span>
                                 <span className={`${Class.line__system}`}>
-                                    <i class="fa-solid fa-angle-right"></i>
+                                    <i className="fa-solid fa-angle-right"></i>
                                 </span>
                             </div>
                             <h2 className={Class.title}>Download the app</h2>
@@ -25,10 +25,10 @@ const HowWorks = () => {
                         <div className='position-relative pb-12 py-lg-0'>
                             <div className='text-center'>
                                 <span className={Class.icon__area2}>
-                                <i class="fa-solid fa-box-open"></i>
+                                <i className="fa-solid fa-box-open"></i>
                                 </span>
                                 <span className={`${Class.line__system}`}>
-                                    <i class="fa-solid fa-angle-right"></i>
+                                    <i className="fa-solid fa-angle-right"></i>
                                 </span>
                             </div>
                             <h2 className={Class.title}>Add new offering</h2>
@@ -38,7 +38,7 @@ const HowWorks = () => {
                         <div className='pb-12 py-lg-0'>
                             <div className='text-center'>
                                 <span className={Class.icon__area3}>
-                                    <i class="fa-solid fa-bullhorn"></i>
+                                    <i className="fa-solid fa-bullhorn"></i>
 
                                 </span>
                             </div>
