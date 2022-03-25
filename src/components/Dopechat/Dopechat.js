@@ -1,6 +1,6 @@
 import React from 'react';
-import Class from './Dopechat.module.css'
-import image from '../../assets/Image.png'
+import image from '../../assets/Image.png';
+import Class from './Dopechat.module.css';
 const Dopechat = () => {
     return (
         <section className={Class.video__section}>
@@ -11,7 +11,6 @@ const Dopechat = () => {
                 <div className={Class.video__area}>
                     <div className=''>
                         <img className={`${Class.video__image} img-fluid w-100`} src={image} alt="" />
-                       
                     </div>
                     <button className={Class.play__btn}>
                         <i class="fa-solid fa-play"></i>
